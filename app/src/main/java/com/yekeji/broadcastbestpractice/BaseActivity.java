@@ -32,6 +32,7 @@ public class BaseActivity extends AppCompatActivity{
         if (receiver!=null){
             unregisterReceiver(receiver);
             receiver=null;
+
         }
     }
     protected void onDestroy(){
